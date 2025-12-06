@@ -1,0 +1,172 @@
+[
+    {
+        "id": 0,
+        "name": "Alisa",
+        "img": "https://i.imgur.com/x3ZZaG3.png"
+    },
+    {
+        "id": 1,
+        "name": "Anna",
+        "img": "https://imgur.com/MqJgCKB.png"
+    },
+    {
+        "id": 2,
+        "name": "Asuka",
+        "img": "https://imgur.com/s6tJ0ii.png"
+    },
+    {
+        "id": 3,
+        "name": "Azucena",
+        "img": "https://imgur.com/HE4lzFU.png"
+    },
+    {
+        "id": 4,
+        "name": "Bryan",
+        "img": "https://imgur.com/m6k32AL.png"
+    },
+    {
+        "id": 5,
+        "name": "Claudio",
+        "img": "https://imgur.com/ssGaND9.png"
+    },
+    {
+        "id": 6,
+        "name": "Clive",
+        "img": "https://imgur.com/FwqTKgr.png"
+    },
+    {
+        "id": 7,
+        "name": "Dragunov",
+        "img": "https://imgur.com/H6KEU8O.png"
+    },
+    {
+        "id": 8,
+        "name": "Eddy",
+        "img": "https://imgur.com/cYBgKp8.png"
+    },
+    {
+        "id": 9,
+        "name": "Feng",
+        "img": "https://imgur.com/Vmaz3lc.png"
+    },
+    {
+        "id": 10,
+        "name": "Heihachi",
+        "img": "https://imgur.com/aAjBCbw.png"
+    },
+    {
+        "id": 11,
+        "name": "Hworang",
+        "img": "https://imgur.com/x7VMlxS.png"
+    },
+    {
+        "id": 12,
+        "name": "Jack-8",
+        "img": "https://imgur.com/aBqvy3t.png"
+    },
+    {
+        "id": 13,
+        "name": "Jin",
+        "img": "https://imgur.com/Jn2oHhR.png"
+    },
+    {
+        "id": 14,
+        "name": "Jun",
+        "img": "https://imgur.com/vZU541P.png"
+    },
+    {
+        "id": 15,
+        "name": "Kazuya",
+        "img": "https://imgur.com/EXen2AQ.png"
+    },
+    {
+        "id": 16,
+        "name": "King",
+        "img": "https://imgur.com/AEBl8Ne.png"
+    },
+    {
+        "id": 17,
+        "name": "Kuma",
+        "img": "https://imgur.com/Fq3RpB1.png"
+    },
+    {
+        "id": 18,
+        "name": "Lars",
+        "img": "https://imgur.com/JMFNDAE.png"
+    },
+    {
+        "id": 19,
+        "name": "Law",
+        "img": "https://imgur.com/fFvOpnC.png"
+    },
+    {
+        "id": 20,
+        "name": "Lee",
+        "img": "https://imgur.com/swEb1Gn.png"
+    },
+    {
+        "id": 21,
+        "name": "Leo",
+        "img": "https://imgur.com/tsVpRV5.png"
+    },
+    {
+        "id": 22,
+        "name": "Leroy",
+        "img": "https://imgur.com/Jgqq83f.png"
+    },
+    {
+        "id": 23,
+        "name": "Lidia",
+        "img": "https://imgur.com/bfm2QTn.png"
+    },
+    {
+        "id": 24,
+        "name": "Lili",
+        "img": "https://imgur.com/J43dorS.png"
+    },
+    {
+        "id": 25,
+        "name": "Nina",
+        "img": "https://imgur.com/DwkKMOV.png"
+    },
+    {
+        "id": 26,
+        "name": "Paul",
+        "img": "https://imgur.com/kOZRHnh.png"
+    },
+    {
+        "id": 27,
+        "name": "Raven",
+        "img": "https://imgur.com/AYW9BWM.png"
+    },
+    {
+        "id": 28,
+        "name": "Shaheen",
+        "img": "https://imgur.com/wLpfaZE.png"
+    },
+    {
+        "id": 29,
+        "name": "Steve",
+        "img": "https://imgur.com/z4tdr7K.png"
+    },
+    {
+        "id": 30,
+        "name": "Victor",
+        "img": "https://imgur.com/1M4i1XG.png"
+    },
+    {
+        "id": 31,
+        "name": "Xiao Yu",
+        "img": "https://imgur.com/1odls0m.png"
+    },
+    {
+        "id": 32,
+        "name": "Yoshimitsu",
+        "img": "https://imgur.com/hnCSHig.png"
+    },
+    {
+        "id": 33,
+        "name": "Zafina",
+        "img": "https://imgur.com/Zox8PRE.png"
+    }
+]

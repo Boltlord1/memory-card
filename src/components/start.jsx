@@ -1,7 +1,14 @@
-export default function Start({ setStatus, setDiff }) {
+export default function Start({ start, changeDiff }) {
     return (
-        <div>
-            <button onClick={() => setStatus(1)}>Start</button>
+        <>
+        <div className="start">
+            <button onClick={start}>Start</button>
         </div>
+        <div>
+            <button onClick={(e) => changeDiff(e, 0)}>Easy</button>
+            <button onClick={(e) => changeDiff(e, 1)}>Medium</button>
+            <button onClick={(e) => changeDiff(e, 2)}>Hard</button>
+        </div>
+        </>
     )
 }

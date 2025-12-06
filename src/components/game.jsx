@@ -1,12 +1,11 @@
-import basicData from '../basic-data.json'
 import Card from './card'
-import shuffle from '../logic/shuffle'
+import { shuffle } from '../logic/shuffle.js'
 
-export default function Game({ clickCard }) {
-    const data = shuffle(basicData)
+export default function Game({ data, clicked, diff, clickCard }) {
+    const shuffled = shuffle(data, 3 * (diff + 1), clicked)
     return (
-        <div className='cards'>
-            {data.map(char => <Card key={char.id} id={char.id} name={char.name} img={null} clickCard={clickCard} />)}
+        <div className='game'>
+            {shuffled.map(char => <Card key={char.id} id={char.id} name={char.name} img={char.img} clickCard={clickCard} />)}
         </div>
     )
 }
