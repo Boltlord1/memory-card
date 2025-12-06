@@ -108,3 +108,7 @@ body {
 .difficulty .selected {
     border-color: hsl(0 80 80);
 }
+
+.status {
+    align-self: center;
+}

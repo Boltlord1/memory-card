@@ -2,7 +2,7 @@ export default function Start({ start, changeDiff }) {
     return (
         <>
         <div className="start">
-            <button onClick={start}>Start</button>
+            <button onClick={() => start(1)}>Start</button>
         </div>
         <div className="difficulty">
             <button onClick={(e) => changeDiff(e, 0)} className="selected">Easy</button>
