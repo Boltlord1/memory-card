@@ -1,8 +1,8 @@
-export default function Header() {
+export default function Header({ reset }) {
     return (
         <header className="header">
             <h1>Memory Card</h1>
-            <button>Reset</button>
+            <button onClick={() => reset(0)}>Reset</button>
         </header>
     )
 }

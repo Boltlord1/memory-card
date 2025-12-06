@@ -1,8 +1,8 @@
-export default function Card({ name, img }) {
+export default function Card({ id, name, img, clickCard }) {
     return (
-        <button className="card">
+        <button id={id} className="card" onClick={clickCard}>
             <img src={img} alt="" />
-            <h2>{name}</h2>
+            <h3>{name}</h3>
         </button>
     )
 }
