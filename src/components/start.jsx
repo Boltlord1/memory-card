@@ -4,8 +4,8 @@ export default function Start({ start, changeDiff }) {
         <div className="start">
             <button onClick={start}>Start</button>
         </div>
-        <div>
-            <button onClick={(e) => changeDiff(e, 0)}>Easy</button>
+        <div className="difficulty">
+            <button onClick={(e) => changeDiff(e, 0)} className="selected">Easy</button>
             <button onClick={(e) => changeDiff(e, 1)}>Medium</button>
             <button onClick={(e) => changeDiff(e, 2)}>Hard</button>
         </div>

@@ -16,9 +16,12 @@ body {
     font-size: 16px;
     display: flex;
     flex-direction: column;
+    gap: 40px;
 }
 
 .header {
+    color: white;
+    background-color: hsl(200 80 10);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
@@ -26,10 +29,20 @@ body {
 
 .header > h1 {
     grid-column: 2 / 3;
+    padding: 20px;
 }
 
 .header > button {
-    grid-column: 3 / 4;
+    font-size: 1.5rem;
+    appearance: none;
+    color: inherit;
+    background-color: inherit;
+    border: none;
+    padding: 0 40px;
+}
+
+.header > button:hover {
+    background-color: hsl(200 80 20);
 }
 
 .game {
@@ -66,9 +79,32 @@ body {
     text-align: center;
 }
 
-/* @media (prefers-color-scheme: dark) {
-    #root {
-        color: hsl(0 0 100);
-        background-color: hsl(0 0 20);
-    }
-} */
+.score {
+    justify-content: center;
+    display: flex;
+    gap: 100px;
+}
+
+.start,
+.difficulty {
+    align-self: center;
+    display: flex;
+    gap: 30px;
+}
+
+.start button,
+.difficulty button {
+    appearance: none;
+    background-color: hsl(0 0 95);
+    border: 2px solid black;
+    padding: 10px 20px;
+}
+
+.start button:hover,
+.difficulty button:hover {
+    background-color: hsl(0 0 90);
+}
+
+.difficulty .selected {
+    border-color: hsl(0 80 80);
+}

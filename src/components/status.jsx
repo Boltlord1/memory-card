@@ -12,15 +12,15 @@ export default function Status({ status }) {
     }, [status, playing])
     if (status === 1) {
         return (
-            <h2>{playing}</h2>
+            <h2 className="status">{playing}</h2>
         )
     } else if (status === 2) {
         return (
-            <h2>You lost! Game is automatically reset.</h2>
+            <h2 className="status">You lost! Game is automatically reset.</h2>
         )
     } else if (status === 3) {
         return (
-            <h2>You won! Game is automatically reset.</h2>
+            <h2 className="status">You won! Game is automatically reset.</h2>
         )
     }
 }

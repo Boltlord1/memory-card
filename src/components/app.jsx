@@ -31,6 +31,10 @@ export default function App() {
     }
 
     function changeDiff(event, diff) {
+        const button = event.target
+        if (button.classList.contains('selected')) return
+        document.querySelector('.selected').classList.remove('selected')
+        button.classList.add('selected')
         setDiff(diff)
     }
 
